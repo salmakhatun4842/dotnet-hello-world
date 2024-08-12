@@ -16,7 +16,7 @@ jobs:
     # Strategy for matrix if you want to support multiple .NET versions
     strategy:
       matrix:
-        dotnet-version: ['5.0', '6.0', '7.0']
+        dotnet-version: ['7.0']
       fail-fast: false
 
     steps:
